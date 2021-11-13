@@ -1,0 +1,28 @@
+@font-face {
+    font-family: my_first_own_font;
+    src: url("my_font.ttf");
+}
+
+h1 {
+    color: blue;
+    font-family: my_first_own_font;
+}
+
+p {
+    color: red;
+    font-variant: small-caps;
+    font-size: 40px;
+}
+
+h2,
+span {
+    text-align: left;
+    line-height: 100%;
+    font-style: italic;
+    background-color: green;
+    font-size: x-large;
+}
+
+h3 {
+    font-style: oblique;
+}
